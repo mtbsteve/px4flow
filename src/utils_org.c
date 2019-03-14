@@ -154,7 +154,7 @@ void ltoa(char *buf, unsigned long i, int base)
 	strcpy(buf, s);
 }
 
-/* void itoa(char *buf, unsigned int i, int base)
+void itoa(char *buf, unsigned int i, int base)
 {
 	char *s;
 	const int len = 10;
@@ -179,5 +179,3 @@ void ltoa(char *buf, unsigned long i, int base)
 		}
 	strcpy(buf, s);
 }
-*/
-
